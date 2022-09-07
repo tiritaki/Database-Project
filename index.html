@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Database Project</title>
   </head>
   <body>
     <div>
       <div>
-        <p>Database Project</p>
+        <h1>Database Project</h1>
       </div>
       <div>
         <p>Introduction</p>
@@ -78,26 +79,12 @@
         </ol>
       </div>
       <div>
-        <ol start="1">
-          <li>
             <p>
-              Where courseID is equals to a number below 5 and the first name of
-              any of the instructors
+              Where courseID is equals to a number below 5 and lesson time
+              is less then 45 min
             </p>
-          </li>
-        </ol>
+            <img src="/Database-Project/assets/task1.png" width="800">
       </div>
-      <div>
-        <ol start="2">
-          <li>
-            <p>
-              Where courseID is equals to a number above 5 and the lesson time
-              is in the morning or afternoon.
-            </p>
-          </li>
-        </ol>
-      </div>
-      <div></div>
     </div>
     <div>
       <div>
@@ -108,20 +95,11 @@
         </ol>
       </div>
       <div>
-        <ol start="1">
-          <li>
-            <p>startDate in “course” table</p>
-          </li>
-        </ol>
+
+            <p>Insturctor in “course” table in descending order </p>
+            <img src="/Database-Project/assets/table2.png" width="800">
       </div>
-      <div>
-        <ol start="2">
-          <li>
-            <p>MemberID in “members” table</p>
-          </li>
-        </ol>
-      </div>
-      <div></div>
+
       <div>
         <ol start="3">
           <li>
@@ -130,23 +108,9 @@
         </ol>
       </div>
     </div>
-    <div>
       <div>
-        <ol start="1">
-          <li>
             <p>Members table, change the addresses of any three members.</p>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <ol start="2">
-          <li>
-            <p>
-              Course table, change the startDate and lesson time for three of
-              the sessions.
-            </p>
-          </li>
-        </ol>
+            <img src="/Database-Project/assets/table3.png" width="800">
       </div>
       <div></div>
       <div>
@@ -159,21 +123,11 @@
           </li>
         </ol>
       </div>
-      <div>
-        <ol start="1">
-          <li>
-            <p>Of the LessonID column in the “lesson” table</p>
-          </li>
-        </ol>
-      </div>
+      
     </div>
     <div>
-      <div>
-        <ol start="2">
-          <li>
             <p>Of the membersID column in the “members” table</p>
-          </li>
-        </ol>
+            <img src="/Database-Project/assets/table4.png" width="800">
       </div>
       <div></div>
       <div>
@@ -184,32 +138,10 @@
         </ol>
       </div>
       <div>
-        <ol start="1">
-          <li>
             <p>Count the total number of members in the “members” table</p>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <ol start="2">
-          <li>
-            <p>Count the total number of sessions in the” members” table</p>
-          </li>
-        </ol>
+            <img src="/Database-Project/assets/table5.png" width="800">
       </div>
     </div>
-    <div>
-      <div>
-        <ol start="3">
-          <li>
-            <p>
-              Find the average session time for all “sessions” in course table
-            </p>
-          </li>
-        </ol>
-      </div>
-      <div></div>
-      <div>
         <ol start="6">
           <li>
             <p>WILDCARD queries (like operator)</p>
@@ -218,92 +150,46 @@
       </div>
       <div></div>
       <div>
-        <ol start="1">
-          <li>
             <p>
               Find all the people from the “members” table whose last name
-              starts with A.
+              starts with B. <br>
+              Find all the people from the “members” table whose first name
+              containing the pattern "ic"
             </p>
-          </li>
-        </ol>
+            <img src="/Database-Project/assets/table6.png" width="800">
       </div>
     </div>
-    <div>
-      <div>
-        <ol start="2">
-          <li>
-            <p>
-              Find all the people from the “members” table whose last name ends
-              with A.
-            </p>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <ol start="3">
-          <li>
-            <p>
-              Find all the people from the “members” table that have "ab" in any
-              position in the last name.
-            </p>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <ol start="4">
-          <li>
-            <p>
-              Find all the people from the “members” table that that have "b" in
-              the second position in their first name.
-            </p>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <ol start="5">
-          <li>
-            <p>
-              Find all the people from the “members” table whose last name
-              starts with "a" and are at least 3 characters in length:
-            </p>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <ol start="6">
-          <li>
-            <p>
-              Find all the people from the “members” table whose last name
-              starts with "a" and ends with "y"
-            </p>
-          </li>
-        </ol>
-      </div>
-    </div>
-    <div>
+
       <div>
         <ol start="7">
           <li>
             <p>
-              Find all the people from the “members” table whose last name does
-              not starts with "a" and ends with "y"
+              GROUP BY.
             </p>
           </li>
         </ol>
       </div>
-      <div></div>
       <div>
-        <ol start="7">
+        <p>
+         To get data of 'city' and number of members for this 'city' 
+        </p>
+        <img src="/Database-Project/assets/table7.png" width="800">
+     </div>
+     <div>
+        <ol start="8">
           <li>
             <p>
-              What do you understand by LEFT and RIGHT join? Explain with an
-              example.
+              Nested.
             </p>
           </li>
         </ol>
       </div>
-      <div></div>
-      <div></div>
+      <div>
+        <p>
+         To identify the members who get lessonID more than 1002
+        </p>
+        <img src="/Database-Project/assets/table8.png" width="800">
+     </div>
     </div>
     <div></div>
   </body>
